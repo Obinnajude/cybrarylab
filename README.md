@@ -4,9 +4,9 @@ This is open for update
 # How to use
 #git clone https://github.com/Obinnajude/cybrarylab
 
-#chmod +X setup.sh
-
 #cd cybrarylab
+
+#chmod +X setup.sh
 
 #./setup.sh
 
