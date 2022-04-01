@@ -6,6 +6,8 @@ This is open for update
 
 #chmod +X setup.sh
 
+#cd cybrarylab
+
 #./setup.sh
 
 #./dolab.sh
