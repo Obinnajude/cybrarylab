@@ -5,8 +5,9 @@ This is open for update
 #git clone https://github.com/Obinnajude/cybrarylab
 
 #cd cybrarylab
+#apt-get update
 
-#chmod +X setup.sh
+#chmod +x setup.sh
 
 #./setup.sh
 
