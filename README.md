@@ -1,5 +1,5 @@
 # cybrarylab
-This helps you to replicate cybrary malware analysis lab on your system.
+This helps you to replicate cybrary malware analysis lab on your kali machine or perform the lab in one click.
 This is open for update 
 # How to use
 #git clone https://github.com/Obinnajude/cybrarylab
