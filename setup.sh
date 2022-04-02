@@ -1,7 +1,17 @@
 #!/bin/bash
 
 #install binwalk
+
+echo "updating your kali..."
+
+apt-get update
+
+echo "Installing binwalk..."
+
 apt-get install binwalk -y
+
+echo "installing md5deep hashing tool..."
+apt-get install md5deep -y
 echo "Enter your IP LHOST (you can get your ip using ifconfig :"
 read Lhost 
 
