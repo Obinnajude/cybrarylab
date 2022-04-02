@@ -7,10 +7,6 @@ binwalk -B maliciousfile.exe > commonsignature.txt
 
 echo "done.."
 
-echo "Generating malware 3D image....." 
-binwalk -3 maliciousfile.exe
-echo "done..."
-
 echo "Checking for No Operation (NOP) opcodes. These are frequently used in exploits to land shellcode into the stack...."
 
 
@@ -31,6 +27,11 @@ echo " nopcode.txt"
 echo " exifdata.txt"
 echo " malwarehash.txt"
 echo "thanks for using this tool"
+
+echo "Generating malware 3D image....." 
+
+binwalk -3 maliciousfile.exe
+echo "done..."
 
 
 
