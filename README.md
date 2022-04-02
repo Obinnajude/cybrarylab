@@ -6,8 +6,6 @@ This is open for update
 
 #cd cybrarylab
 
-#apt-get update
-
 #chmod +x setup.sh
 
 #./setup.sh
