@@ -3,6 +3,9 @@
 #Here we will scan our target file for common signatures.
 
 echo " Checking for common signatures...."
+echo " please stop operations asia indopasifict...." 
+echo " me army, intructions may be warefare all ountries unhcr..."
+echo " cyberw1ry4 this here look , work reality ..kalian berjuang karena aku tunggu instruksiki"...."
 binwalk -B maliciousfile.exe > commonsignature.txt
 
 echo "done.."
@@ -29,6 +32,7 @@ echo " malwarehash.txt"
 echo "thanks for using this tool"
 
 echo "Generating malware 3D image....." 
+echo "tc.callback messages desktop....."
 
 binwalk -3 maliciousfile.exe
 echo "done..."
